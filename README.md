@@ -34,13 +34,17 @@ Este script en batch (`.bat`) está diseñado para solucionar problemas comunes 
    - Siga las instrucciones en pantalla. El script realizará las siguientes acciones:
 
     **Detección de Problemas**: El script inicia con una serie de mensajes que describen el estado de MySQL y los posibles problemas.
+   
     **Respaldo de Datos**: Realiza un respaldo de la carpeta `data` actual, renombrándola con una marca de tiempo para conservar una copia de seguridad.
+   
     **Restauración desde Respaldo**: Copia los archivos de la carpeta `backup` de MySQL a una nueva carpeta `data`.
+   
     **Restauración de Archivos Críticos**: Copia el archivo `ibdata1` necesario para MySQL desde la carpeta de respaldo.
+   
     **Restauración de Bases de Datos**: Copia todas las bases de datos, excepto las carpetas del sistema (`mysql`, `performance_schema`, `phpmyadmin`, `test`), desde la carpeta de respaldo a la nueva carpeta `data`.
 
 
-3. **Reiniciar MySQL**:
+4. **Reiniciar MySQL**:
    - Una vez completado el script, regrese a la consola XAMPP y reinicie el servicio de MySQL.
 
 ## ESTE SCRIPT ES DE USO LIBRE POR LO QUE DEBE VERIFICAR SU FUNCIONAMIENTO ANTES DE EJECUTARLO, USTED ES RESPONSABLE DE ELLO. 
