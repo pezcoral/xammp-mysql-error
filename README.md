@@ -17,7 +17,7 @@ entire log window on the forums
 
 
 ----------------------------------------------
-IMPORTRANTE LEER PRIMERO: 
+IMPORTANTE LEER PRIMERO: 
 ----------------------------------------------
 
 ## Descripción
